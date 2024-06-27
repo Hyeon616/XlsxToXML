@@ -7,9 +7,6 @@
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
-
-
-
         /// <summary>
         /// 사용 중인 모든 리소스를 정리합니다.
         /// </summary>
@@ -43,28 +40,28 @@
             // 
             // btnUpload
             // 
-            this.btnUpload.Location = new System.Drawing.Point(320, 155);
+            this.btnUpload.Location = new System.Drawing.Point(345, 148);
             this.btnUpload.Name = "btnUpload";
-            this.btnUpload.Size = new System.Drawing.Size(200, 50);
+            this.btnUpload.Size = new System.Drawing.Size(133, 45);
             this.btnUpload.TabIndex = 0;
-            this.btnUpload.Text = "Xlsx파일 업로드";
+            this.btnUpload.Text = "Upload Excel File";
             this.btnUpload.UseVisualStyleBackColor = true;
             this.btnUpload.Click += new System.EventHandler(this.button1_Click);
             // 
             // btnConvert
             // 
-            this.btnConvert.Location = new System.Drawing.Point(320, 240);
+            this.btnConvert.Location = new System.Drawing.Point(345, 232);
             this.btnConvert.Name = "btnConvert";
-            this.btnConvert.Size = new System.Drawing.Size(200, 50);
+            this.btnConvert.Size = new System.Drawing.Size(133, 50);
             this.btnConvert.TabIndex = 1;
-            this.btnConvert.Text = "XML로 변환 및 DB에 업로드";
+            this.btnConvert.Text = "Convert to XML UploadDB";
             this.btnConvert.UseVisualStyleBackColor = true;
             this.btnConvert.Click += new System.EventHandler(this.button2_Click);
             // 
             // lblStatus
             // 
             this.lblStatus.AutoSize = true;
-            this.lblStatus.Location = new System.Drawing.Point(310, 314);
+            this.lblStatus.Location = new System.Drawing.Point(329, 314);
             this.lblStatus.Name = "lblStatus";
             this.lblStatus.Size = new System.Drawing.Size(0, 12);
             this.lblStatus.TabIndex = 2;
